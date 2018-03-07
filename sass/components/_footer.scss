@@ -1,0 +1,17 @@
+// @import "../variables/variable";
+
+footer{
+	position:fixed; z-index:999;
+	width:100%;
+  bottom:-10px;
+	margin-top: -72px; /* negative value of footer height */
+	margin-top: 0px; /* for IE */
+	height: 40px;
+	clear:both; text-align:center;
+	background-color: $footer;
+}
+
+@media (max-height:700px){
+	footer { position: static; }
+	// header { padding-top:40px; }
+}

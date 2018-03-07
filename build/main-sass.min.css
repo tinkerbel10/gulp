@@ -1,0 +1,112 @@
+ul.topnav {
+  list-style-type: none;
+  margin: 0;
+  padding-top: 0;
+  overflow: hidden;
+  background-color: transparent; }
+  ul.topnav li {
+    float: left; }
+  ul.topnav a {
+    display: inline-block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 20px; }
+  ul.topnav :hover {
+    border: 3px solid #73AD21; }
+  ul.topnav .icon {
+    display: none; }
+
+@media screen and (max-width: 680px) {
+  ul.topnav li:not(:first-child) {
+    display: none; }
+  ul.topnav li.icon {
+    float: right;
+    display: inline-block; } }
+
+@media screen and (max-width: 680px) {
+  ul.topnav.responsive {
+    position: relative; }
+    ul.topnav.responsive li.icon {
+      position: absolute;
+      right: 0;
+      top: 0; }
+    ul.topnav.responsive li {
+      float: none;
+      display: inline; }
+    ul.topnav.responsive a {
+      display: block;
+      text-align: left; } }
+
+footer {
+  position: fixed;
+  z-index: 999;
+  width: 100%;
+  bottom: -10px;
+  margin-top: -72px;
+  /* negative value of footer height */
+  margin-top: 0px;
+  /* for IE */
+  height: 40px;
+  clear: both;
+  text-align: center;
+  background-color: #73AD21; }
+
+@media (max-height: 700px) {
+  footer {
+    position: static; } }
+
+body {
+  background-image: url("../images/solid.jpg");
+  max-width: 100%;
+  margin: 0; }
+
+h1, p {
+  color: black; }
+
+p {
+  padding-right: 30px;
+  padding-left: 35px; }
+
+.container {
+  font-size: 20px;
+  max-width: 80%;
+  margin-right: auto;
+  margin-left: auto;
+  padding-left: 30px;
+  padding-right: 30px;
+  -moz-opacity: .10;
+  filter: alpha(opacity=90);
+  opacity: .90;
+  border-radius: 8px;
+  padding-bottom: 10px;
+  padding-top: 10px;
+  border: 3px solid #73AD21; }
+
+.row {
+  margin-left: -15px;
+  margin-right: -15px; }
+
+.btn-orange {
+  color: orange;
+  background-color: white;
+  border-color: orange;
+  border-radius: 5px;
+  font-size: 20px;
+  margin-bottom: 0;
+  text-align: center;
+  border: 1px solid transparent;
+  padding: 8px 16px; }
+
+.img-center {
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+  overflow: hidden;
+  height: 150px;
+  width: 150px; }
+
+.naruto {
+  width: 150px;
+  height: 125px; }

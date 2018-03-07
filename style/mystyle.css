@@ -1,0 +1,57 @@
+body {
+    background-image: url("../images/Gray.png");
+    background-size:  1400px 800px;
+    background-repeat: no-repeat;
+}
+
+h1 {
+    color: black;
+
+}
+
+p {
+    color:	#F0F8FF;
+    padding-right: 30px;
+    padding-left: 35px;
+}
+.container {
+  margin-right: 35px;
+  margin-left: 40px;
+  padding-left: 40px;
+  padding-right: 30px;
+  background-color: #669999;
+  -moz-opacity:.10;
+  filter:alpha(opacity=90);
+  opacity:.90;
+  border-radius: 8px;
+  padding-bottom: 10px;
+  padding-top: 10px;
+}
+.row {
+  margin-left: -15px;
+  margin-right: -15px;
+}
+.btn-orange{
+  color: orange;
+  background-color: white ;
+  border-color: orange;
+  border-radius: 5px;
+  font-size: 20px;
+  margin-bottom: 0;
+  text-align: center;
+  border: 1px solid transparent;
+  padding: 8px 16px;
+
+}
+.img-center{
+      margin-left:auto;
+      margin-right:auto;
+      position:relative;
+      overflow:hidden;
+      height:150px;
+      width:150px;
+}
+.naruto{
+  width:150px;
+  height:125px;
+}
